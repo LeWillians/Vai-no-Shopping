@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(178, 209, 202);
+}
+
+header {
+  border: solid 5px rgb(84, 124, 52);
+  background-color: rgb(27, 192, 178);
+  height: 80px;
+  padding-top: 10px;
+  padding-left: 320px;
+}
+header h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(39, 78, 94);
+}
+
+article {
+  border: solid rgb(27, 192, 178) 15px;
+  margin: 50px 50px;
+}
+article figure {
+  border: solid 5px rgb(84, 124, 52);
+  padding-left: 330px;
+}
+article figure img {
+  width: 150px;
+  mix-blend-mode: multiply;
+}
+article figure figcaption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(16, 42, 53);
+  padding-left: 10px;
+}
+article button {
+  margin-left: 350px;
+  background-color: rgb(27, 161, 121);
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}/*# sourceMappingURL=style.css.map */
